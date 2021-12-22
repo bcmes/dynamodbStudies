@@ -1,0 +1,11 @@
+{
+  "TableName": "Music",
+  "Key": {
+    "Artist": {
+      "S": "No One You Know"
+    },
+    "SongTitle": {
+      "S": "Call me Today"
+    }
+  }
+}

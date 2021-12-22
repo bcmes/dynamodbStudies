@@ -1,0 +1,19 @@
+{
+  "TableName": "Music",
+  "Item": {
+    "Artist": {"S": "No One You Know"},
+    "SongTitle": {"S": "Call Me Today"},
+    "AlbumTitle": {"S": "Somewhat Famous"},
+    "Year": {"N": "2015"},
+    "Price": {"N": "2.14"},
+    "Genre": {"S": "Country"},
+    "Tags": {
+      "M": {
+            "Composers": {
+                  "SS":["Smith","Jones","Davis"]
+            },
+            "LengthInSeconds": {"N": "214"}
+      }
+    }
+  }
+}

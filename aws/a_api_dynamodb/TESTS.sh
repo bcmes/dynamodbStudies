@@ -1,5 +1,3 @@
 #!/bin/bash
 
-echo `date -d '+0 minutes' +%s`
-
-aws dynamodb scan --table-name Music --endpoint-url http://localhost:4566
+aws dynamodb scan --table-name Movies --endpoint-url http://localhost:4566

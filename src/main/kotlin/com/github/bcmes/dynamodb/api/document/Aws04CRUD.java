@@ -239,4 +239,14 @@ public class Aws04CRUD {
             System.err.println(e.getMessage());
         }
     }
+
+    public void readOneMusic() {
+        Table table = this.dynamoDBClient.getTable("Music");
+        GetItemOutcome outcome = table.getItemOutcome(
+                "Artist", "No One You Know",
+                "SongTitle", "Call Me Today");
+
+        String year = outcome.getItem().getString("AlbumTitle");
+        System.out.println("The song was released in " + year);
+    }
 }

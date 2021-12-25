@@ -24,3 +24,6 @@ aws dynamodb put-item`` \
         '{"Artist": {"S": "No One You Know"}, "SongTitle": {"S": "Call Me Today"}, "AlbumTitle": {"S": "Somewhat Famous"}}' \
     --return-consumed-capacity TOTAL \
     --endpoint-url http://localhost:4566
+
+#Outros exemplos: https://docs.aws.amazon.com/pt_br/amazondynamodb/latest/developerguide/WorkingWithItems.html
+#https://docs.aws.amazon.com/pt_br/amazondynamodb/latest/developerguide/Expressions.OperatorsAndFunctions.html

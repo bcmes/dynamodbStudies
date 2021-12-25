@@ -9,3 +9,5 @@ aws dynamodb update-item \
     --expression-attribute-values '{":newval":{"S":"Updated Album Title"}}' \
     --return-values ALL_NEW \
     --endpoint-url http://localhost:4566
+
+#https://docs.aws.amazon.com/pt_br/amazondynamodb/latest/developerguide/Expressions.UpdateExpressions.html

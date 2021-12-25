@@ -1,3 +1,9 @@
+/**
+ * Com uma interface de documento, você não precisa especificar Descritores de tipo de dados.
+ *  Os tipos de dados estão implícitos pela semântica dos próprios dados.
+ *  Convertem facilmente documentos JSON de/em tipos de dados nativos do DynamoDB.
+ * */
+
 package com.github.bcmes.dynamodb.api.document;
 
 import com.amazonaws.services.dynamodbv2.document.DynamoDB;
@@ -47,3 +53,4 @@ public class Aws01CreateTable {
             System.out.println("Success.  Table status: " + table.getDescription().getTableStatus());
     }
 }
+//Outros exemplos: https://docs.aws.amazon.com/pt_br/amazondynamodb/latest/developerguide/JavaDocumentAPIWorkingWithTables.html
